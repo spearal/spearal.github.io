@@ -30,11 +30,25 @@
         <h3>
 <a name="welcome-to-the-spearal-serialization-protocol" class="anchor" href="#welcome-to-the-spearal-serialization-protocol"><span class="octicon octicon-link"></span></a>Welcome to the Spearal Serialization Protocol.</h3>
 
-<p>Spearal is a new, <a href="http://www.apache.org/licenses/LICENSE-2.0.html">open-source</a>, serialization protocol that aims to overcome the limitations of JSON. It targets - as a first step - HTML and native mobile applications connected to a Java backend.</p>
+<p>Spearal is a new, <a href="http://www.apache.org/licenses/LICENSE-2.0.html">open-source</a>, serialization protocol that works - unlike JSON - with arbitrary complex data model, while offering advanced features such as partial object serialization, built-in support for JPA uninitialized associations, divergent models reconciliation or object properties filtering.</p>
 
-<p>The primary goal of Spearal is to offer a serialization protocol that simply works, whatever is the complexity of data structures exchanged between endpoints: several JSON limitations are poisoning developers with problems that wouldn't happen with a good and versatile serialization format.</p>
+<p>Spearal is designed to work with the following client-side technologies:</p>
 
-<p>Beyond this primary goal, Spearal is also offering advanced features that do not exist in standard JSON, such as partial object serialization, built-in support for JPA uninitialized associations, divergent models reconciliation, object properties filtering, etc. While it is still in an early development stage, Spearal is already usable for HTML applications connected to a Java backend. Android support is mostly ready and iOS will follow soon.</p>
+<ul>
+  <li>HTML5 (JavaScript)</li>
+  <li>Apple iOS (Swift)</li>
+  <li>Google Android (Java)</li>
+</ul>
+
+<p>Server-side, it integrates with any Java servlet container and has specific modules for:</p>
+
+<ul>
+  <li>Spring MVC</li>
+  <li>JAX-RS</li>
+  <li>JPA 2</li>
+</ul>
+
+<p>While it is still in an early development stage, it can already be used in non-critical Web and mobile applications, as demonstrated in the our <a href="https://github.com/spearal-examples/" target="_blank">sample projects</a>.</p>
 
 <h4>News</h4>
 
@@ -49,7 +63,7 @@
     <td>October 28, 2014</td><td>Spearal 0.2.0 released (see <a href="https://github.com/spearal" target="_blank">each project on Gihub</a> for download links)</td>
   </tr>
   <tr>
-    <td>October 27, 2014</td><td>New article on DZone: <a href="http://mobile.dzone.com/articles/day-after-json-spearal-and" target="_blank">The day after JSON: Spearal and mobile apps</a></td>
+    <td>October 27, 2014</td><td>New article on DZone: <a href="http://mobile.dzone.com/articles/day-after-json-spearal-and" target="_blank">The day after JSON: Spearal and mobile apps</a> (with an Android app)</td>
   </tr>
   <tr>
     <td>October 6, 2014</td><td>Article on DZone: <a href="http://architects.dzone.com/articles/beyond-json-introducing" target="_blank">Beyond JSON: Introducing the Spearal Serialization Protocol</a></td>
@@ -76,9 +90,9 @@
 
 <p>Go to the <a href="https://github.com/spearal" target="_blank">Spearal project page</a>.</p>
 
-<p>Contact us in the <a href="https://groups.google.com/forum/#!forum/spearal" target="_blank">Spearal user forum</a>.</p>
+<p>Contact us in the <a href="https://groups.google.com/forum/#!forum/spearal" target="_blank">Spearal users forum</a>.</p>
 
-<p>Play with the <a href="https://github.com/spearal-examples/" target="_blank">Spearal examples projects</a>.</p>
+<p>Play with the <a href="https://github.com/spearal-examples/" target="_blank">Spearal example projects</a>.</p>
 
 <p><a href="https://twitter.com/Spearal" class="twitter-follow-button" data-show-count="false">Follow @Spearal</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
 
